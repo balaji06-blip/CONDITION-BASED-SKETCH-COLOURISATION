@@ -1,0 +1,15 @@
+Model: Hybrid Pix2Pix + Conditional Diffusion
+Fusion: frozen Pix2Pix coarse output used as extra diffusion condition
+Training epochs: 100
+Hint rate: 0.05
+Fusion condition: sketch(3) + hints(3) + mask(1) + Pix2Pix RGB(3) = 10
+Diffusion U-Net total input: noisy RGB(3) + fusion condition(10) = 13
+Train diffusion steps: 1000
+Test DDIM steps: 100
+Mean PSNR: 26.0240 dB
+PSNR Std: 2.4550 dB
+Mean SSIM: 0.8733
+SSIM Std: 0.0836
+Mean LPIPS: 0.0763
+LPIPS Std: 0.0663
+End-to-end fusion inference: 1934.28 ms/image
