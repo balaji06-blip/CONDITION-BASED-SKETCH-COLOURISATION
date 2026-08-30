@@ -1,0 +1,10 @@
+Model: Strong Conditional Diffusion (Palette-style)
+Training epochs: 100
+Hint rate: 0.05
+Train diffusion steps: 1000
+Test DDIM steps: 100
+Mean PSNR: 26.2284 dB
+PSNR Std: 2.5634 dB
+Mean SSIM: 0.8958
+SSIM Std: 0.0711
+Inference: 2300.82 ms/image
