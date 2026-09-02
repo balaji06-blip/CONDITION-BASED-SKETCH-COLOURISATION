@@ -1,7 +1,8 @@
 # Condition-Based Sketch Colourisation
 
+  Balaji Periyadurai 
+
 **MSc Dissertation Project — University of Surrey**  
-**Student:** Balaji Periyadurai  
 **Programme:** MSc Computer Vision, Robotics and Machine Learning  
 **Supervision:** Prof. Yi-Zhe Song and Chaitat Utintu  
 **Year:** 2026
@@ -15,7 +16,7 @@ Given an RGB sketch, a sparse RGB colour-hint map, and a binary hint mask, the s
 Three systems were implemented and evaluated under a common experimental setting:
 
 1. **Condition-based Pix2Pix cGAN baseline**
-2. **Palette-inspired conditional diffusion model**
+2. **conditional diffusion model**
 3. **Hybrid Pix2Pix–Diffusion fusion model**
 
 All systems use the same paired dataset, **256 × 256** image resolution, a **5% sparse colour-hint budget**, and the same held-out test partition.
