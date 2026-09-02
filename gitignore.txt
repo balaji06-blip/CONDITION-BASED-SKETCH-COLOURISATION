@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Dataset
+archive/
+data/
+dataset/
+datasets/
+
+# Model checkpoints / weights
+*.pth
+*.pt
+*.ckpt
+
+# Generated outputs that can become very large
+**/checkpoints/
+**/generated/
+**/ground_truth/
+**/samples/
+
+# Cache / temp
+.cache/
+.ipynb_checkpoints/
+*.log
